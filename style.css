@@ -56,19 +56,22 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 7em;
     background-color: black;
+    position: absolute;
+    z-index: 1;
   }
   #underline{
     text-decoration-line: underline;
     text-decoration-style: "solid";
     text-decoration-color: rgba(232,54,0,1);
     text-decoration-thickness: 7px;
+    z-index: 1;
   }
-  .quotecontainer{
-    margin-top: 1.5rem;
-    border-radius: 50px;
-    background: #7d5454;
-    box-shadow:  20px 20px 60px #6a4747,
-                 -20px -20px 60px #906161;
+ 
+  .subcontainer{
+    margin-top: 15rem;
+    display:grid;
+    z-index: 2;
+    position: absolute;
   }
   
   .cta {
