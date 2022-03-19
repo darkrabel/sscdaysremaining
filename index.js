@@ -1,15 +1,16 @@
 const sscDate = "6/19/2022"
 const d = new Date();
 let getYear = d.getFullYear();
-let getMonth = d.getMonth();
+let getMonth = d.getMonth()+1;
 let getDate= d.getDate();
+// let getMonth = getMonth+1;
 // if (getMonth<10) {
 //   getMonth = "0"+getMonth;
 //
 // }
 //we don not need th
 
-let fullDate =+getMonth+"/"+getDate+"/"+getYear;
+let fullDate =getMonth+"/"+getDate+"/"+getYear;
 console.log(fullDate)
 
 let t = typeof(fullDate);
