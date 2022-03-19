@@ -3,7 +3,7 @@ const d = new Date();
 let getYear = d.getFullYear();
 let getMonth = d.getMonth();
 let getDate= d.getDate();
-let getDate = getDate+1;
+let getMonth = getMonth+1;
 // if (getMonth<10) {
 //   getMonth = "0"+getMonth;
 //
