@@ -9,7 +9,7 @@ let getDate= d.getDate();
 // }
 //we don not need th
 
-let fullDate =+getMonth+"/"+getDate+"/"+getYear;
+let fullDate =getMonth+"/"+getDate+"/"+getYear;
 console.log(fullDate)
 
 let t = typeof(fullDate);
